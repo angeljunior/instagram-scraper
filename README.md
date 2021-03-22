@@ -1,6 +1,6 @@
 # 📷 Instagram Scraper
 
-[![Latest Stable Version](https://poser.pugx.org/angeljunior/instagram-scraper/v/stable)](https://packagist.org/packages/angeljunior/instagram-scraper) [![Total Downloads](https://poser.pugx.org/angeljunior/instagram-scraper/downloads)](https://packagist.org/packages/angeljunior/instagram-scraper) [![License](https://poser.pugx.org/angeljunior/instagram-scraper/license)](https://packagist.org/packages/angeljunior/instagram-scraper)
+[![Latest Stable Version](https://poser.pugx.org/angeljunior/instagram-scraper/v)](https://packagist.org/packages/angeljunior/instagram-scraper) [![Total Downloads](https://poser.pugx.org/angeljunior/instagram-scraper/downloads)](https://packagist.org/packages/angeljunior/instagram-scraper) [![License](https://poser.pugx.org/angeljunior/instagram-scraper/license)](https://packagist.org/packages/angeljunior/instagram-scraper)
 
 Instagram scraper, with support for users, medias, tags, comments and locations. Proxified by Residential and 4G Proxies.
 
