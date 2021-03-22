@@ -5,7 +5,7 @@ Get a public users data, media, or search for a specific tag or location, withou
 
 Since this library uses the web version of Instagram to scrape content, it can break at any time should the returned source code for these pages change.
 
-Proxified for [Instagram Scraping Data](https://rapidapi.com/falecom-sK1dE9GI7/api/instagram-scraping-data/) use a intelligent proxy balancing to better data get and no blocking, success rate is very high.
+Proxified for [Instagram Scraper API](https://rapidapi.com/junioroangel/api/instagram-scraper) use a intelligent proxy balancing to better data get and no blocking, success rate is very high.
 
 ## Requirements
 
@@ -88,9 +88,6 @@ $result = $is->searchLocations('New york');
 $result = $is->searchUsers('nik');
 
 ```
-
-
-
 
 
 
