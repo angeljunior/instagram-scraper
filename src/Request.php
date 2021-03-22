@@ -45,6 +45,19 @@ class Request
     }
 
 
+    public static function convertHeaderCurl($array)
+    {
+
+        foreach ($array as $key => $value) {
+            
+            $headers[] = $key. ': '. $value;
+
+        }
+        
+        return $headers;
+    }
+
+
     /**
      * Add custom header to request, overwriting any previous or default value.
      *
@@ -81,7 +94,7 @@ class Request
         curl_setopt($ch, CURLOPT_ENCODING,  '');
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, Utils::convertHeaderCurl($this->_headers));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, self::convertHeaderCurl($this->_headers));
 
 
         $resp           = curl_exec($ch);
