@@ -1,0 +1,20 @@
+{
+    "name": "angeljunior/instagram-scraper",
+    "description": "Instagram scraper, with support for users, medias, tags, comments and locations. Proxified by Residential Proxies.",
+    "keywords": [
+        "instagram",
+        "scraper",
+        "instagram-scraper"
+    ],
+    "homepage": "https://github.com/junioroangel/instagram-scraper",
+    "readme": "README.md",
+    "require": {
+        "php": ">=5.6.0",
+        "ext-curl": "*",
+    },
+    "autoload": {
+       "psr-4": {
+           "angeljunior\\": "src"
+       }
+   }
+}
