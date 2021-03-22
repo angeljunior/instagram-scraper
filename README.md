@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/angeljunior/instagram-scraper/v/stable)](https://packagist.org/packages/angeljunior/instagram-scraper) [![Total Downloads](https://poser.pugx.org/angeljunior/instagram-scraper/downloads)](https://packagist.org/packages/angeljunior/instagram-scraper) [![License](https://poser.pugx.org/angeljunior/instagram-scraper/license)](https://packagist.org/packages/angeljunior/instagram-scraper)
 
-Instagram scraper, with support for users, medias, tags, comments and locations. Proxified by Residential Proxies.
+Instagram scraper, with support for users, medias, tags, comments and locations. Proxified by Residential and 4G Proxies.
 
 Get a public users data, media, or search for a specific tag or location, without having to register an app.
 
@@ -12,7 +12,7 @@ Proxified for [Instagram Scraper API](https://rapidapi.com/junioroangel/api/inst
 
 ## Requirements
 
-- RapidAPI Account
+- Rapid API Account
 - PHP 5.6.0 or higher
 
 

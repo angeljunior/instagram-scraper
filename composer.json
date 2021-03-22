@@ -1,6 +1,6 @@
 {
     "name": "angeljunior/instagram-scraper",
-    "description": "Instagram scraper, with support for users, medias, tags, comments and locations. Proxified by Residential Proxies.",
+    "description": "Instagram scraper, with support for users, medias, tags and locations. Proxified by Residential and 4G Proxies.",
     "keywords": [
         "instagram",
         "scraper",
