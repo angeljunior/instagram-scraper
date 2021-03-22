@@ -47,6 +47,7 @@ class Request
 
     public static function convertHeaderCurl($array)
     {
+        $headers = [];
 
         foreach ($array as $key => $value) {
             
