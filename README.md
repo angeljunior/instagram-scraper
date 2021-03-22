@@ -1,4 +1,7 @@
 # 📷 Instagram Scraper
+
+[![Latest Stable Version](https://poser.pugx.org/angeljunior/instagram-scraper/v/stable)](https://packagist.org/packages/angeljunior/instagram-scraper) [![Total Downloads](https://poser.pugx.org/angeljunior/instagram-scraper/downloads)](https://packagist.org/packages/angeljunior/instagram-scraper) [![License](https://poser.pugx.org/angeljunior/instagram-scraper/license)](https://packagist.org/packages/angeljunior/instagram-scraper)
+
 Instagram scraper, with support for users, medias, tags, comments and locations. Proxified by Residential Proxies.
 
 Get a public users data, media, or search for a specific tag or location, without having to register an app.

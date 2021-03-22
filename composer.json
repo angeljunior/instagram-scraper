@@ -6,7 +6,7 @@
         "scraper",
         "instagram-scraper"
     ],
-    "license": "GNU",
+    "license": "AGPL-3.0-or-later",
     "homepage": "https://github.com/junioroangel/instagram-scraper",
     "readme": "README.md",
     "require": {
