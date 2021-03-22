@@ -27,7 +27,7 @@ class Request
     {
         $this->_userAgent =  'InstagramScraper/1.0';
         $this->_parent = $parent;
-        $this->_url = $parent::RAPID_API . $url;
+        $this->_url = $this->_parent->_RapidAPI . $url;
         return $this;
     }
 
@@ -95,7 +95,7 @@ class Request
         curl_setopt($ch, CURLOPT_ENCODING,  '');
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, self::convertHeaderCurl($this->_headers));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, self::convertHeaderCurl($this->_parent->defaultHeader()));
 
 
         $resp           = curl_exec($ch);

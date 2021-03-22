@@ -11,3 +11,91 @@ Proxified for [Instagram Scraping Data](https://rapidapi.com/falecom-sK1dE9GI7/a
 
 - RapidAPI Account
 - PHP 5.6.0 or higher
+
+
+## Installation
+
+```
+composer require angeljunior/instagram-scraper
+```
+
+
+## Usage
+
+### Starting API
+
+Informe your Rapid API Key
+
+```php
+$is = new angeljunior\InstagramScraper('RAPID-API-KEY');
+```
+
+### Getting a public users data
+
+Returns all public data from an Instagram profile.
+
+```php
+// by Username
+$result = $is->getProfileByUsername('nike');
+
+// by URL
+$result = $is->getProfileByURL('https://www.instagram.com/nike/');
+```
+
+### Getting medias
+
+Returns all public medias.
+
+```php
+
+// by User Id
+$result = $is->getMedias(13460080);
+
+// by public Hashtag
+$result = $is->getMediaByHashtag('travel');
+
+// by public Place
+$result = $is->getMediaByLocation(108424279189115);
+
+```
+
+### Getting a media data
+
+Returns a specific public media data.
+
+```php
+// by Media Shortcode
+$result = $is->getMediaByCode('CMe3AQxnhmd');
+
+// by Media URL
+$result = $is->getMediaByUrl('https://www.instagram.com/p/CMnW2SBMKiu/');
+
+```
+
+### Getting search results
+
+Returns a list of users, tags or locations
+
+```php
+
+// by Hashtags
+$result = $is->searchHashtags('travel');
+
+// by Location
+$result = $is->searchLocations('New york');
+
+// by Userame
+$result = $is->searchUsers('nik');
+
+```
+
+
+
+
+
+
+
+
+
+
+
