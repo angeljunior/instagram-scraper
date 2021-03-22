@@ -24,7 +24,7 @@ class InstagramScraper
 	*
 	* @var string
 	**/
-	const RAPID_API = 'https://instagram-scraping-data.p.rapidapi.com';
+	const RAPID_API = 'https://instagram-scraper.p.rapidapi.com';
 
 	/**
 	* Rapid API
@@ -32,7 +32,7 @@ class InstagramScraper
 	*
 	* @var string
 	**/
-	const RAPID_HOST = 'instagram-scraping-data.p.rapidapi.com';
+	const RAPID_HOST = 'instagram-scraper.p.rapidapi.com';
 
 	/**
 	* Rapid API
@@ -52,7 +52,7 @@ class InstagramScraper
 	public function __construct($rapid_api_key = null){
 
 		if(empty($rapid_api_key) || is_null($rapid_api_key))
-			throw new Exception("Construct request a Rapid API Key", 1);
+			throw new Exception("__construct request a Rapid API Key", 1);
 
 		
 		$this->rapidapi_key = $rapid_api_key;
